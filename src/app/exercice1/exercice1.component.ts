@@ -10,11 +10,11 @@ export class Exercice1Component implements OnInit {
   afficherText: String;
   prenom: String;
   constructor() {
-    this.afficherText = 'any';
-    this.prenom = 'any';
+    this.afficherText = 'string';
+    this.prenom = 'Saïda';
   }
   afficherAction() {
-    this.afficherText = 'Action';
+    this.afficherText = 'Action !';
   }
 
   ngOnInit() {

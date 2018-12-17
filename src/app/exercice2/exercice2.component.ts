@@ -11,7 +11,7 @@ export class Exercice2Component implements OnInit {
 
   ngOnInit() {
   }
-  afficherConsole(valeur: any) {
+  afficherConsole(valeur: string) {
     console.log(valeur);
   }
 }

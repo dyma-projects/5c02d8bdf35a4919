@@ -3,11 +3,14 @@
   <br>
   <input type='text' [value]='afficherText'>
   <br>
+  <br>
   Liaison d'évènement
+  <br>
   <br>
   <input type="button" value="Action" (click)='afficherAction()'>
   <br>
   Liaison d'interpolation de variable
   <br>
-  <p>Mon prénom est {{ personne.prenom }}</p>
+  <br>
+  <p>Mon prénom est {{ this.prenom }}</p>
 </div>
